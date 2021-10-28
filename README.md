@@ -1,7 +1,7 @@
 <a href="https://www.behance.net/JoseOsp"><img src="/assets/joseErneyOspina.png" height="200" align="right"></a>
 # Jose Erney Ospina
 
-### PROYECTO
+### PROJECT
 
 Certified Tech Developer
 
@@ -11,24 +11,24 @@ Certified Tech Developer
 
 ### Jose Erney Ospina
 
-Freelance
+Web UI Developer at [ Globant ](https://www.linkedin.com/company/globant/mycompany/)
 
   - UX Designer & Frontend Developer focus on UI Development
-  - Portfolio [ on Behance ](https://behance.net/JoseErneyOspina/)
-  - [ LinkedId ](https://linkedin.com/in/joseerneyospina/)
+  - Portfolio [ on Behance ](https://www.behance.net/JoseOsp/)
+  - [ LinkedIn ](https://linkedin.com/in/joseerneyospina/)
 
-## INSTALACIÓN
+## INSTALL PROCESS
 
-### Package
+### PACKAGE
 
-Para instalar todas las dependencias:
+To install all dependencies:
 
 ```bash
 $ npm install
 ```
 
 
-### CONTACTO
+### CONTACT
 
 JoseErneyOsp@gmail.com
 
