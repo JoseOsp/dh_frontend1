@@ -7,63 +7,97 @@
 html, body {
     width: 100vw;
     height: 100vh;
+    font-family: "Times New Roman", serif;
 }
 
 body {
-    margin: 0 8px 0 8px;
+    margin: 0 0 0 0;
+}
+
+section {
+    margin: 0 21px 0 21px;
 }
 
 body h2 {
     margin-top: 19px;
 }
 
+ul .li__move {
+    margin: 0 0 0 31px;
+    list-style: none;
+}
+
+ul .li__solo {
+    margin: 0 0 0 0;
+    list-style: none;
+}
+
+ol {
+    margin: 23px 0 44px 15px;
+}
+
 .header {
     display: flex;
-  }
+    flex-direction: column;
+    margin: 0 21px 0 21px;
+}
 
 hr {
     width: 100vw;
     border: 1px solid #000000;
 }
 
-  .header__logo {
-    margin: 23px 8px 28px 0;
-  }
+.header__logo {
+margin: 23px 8px 15px 0;
+width: 93px;
+}
+
+.header__link-contact {
+  margin-bottom: 14px;
+}
 
 .section1 {
       display: flex;
-      align-items: center;
-      justify-content: center;
-    flex-direction: column;
+      flex-direction: column;
   }
 
-  .section1__h1 {
-      align-self: center;
-      height: 37px;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 32px;
-      line-height: 37px;
-      margin: 21px 0 22px 0;
-  }
+.section1__h1 {
+  align-self: start;
+  height: 37px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 55px;
+  margin: 21px 0 22px 0;
+}
 
-  .section__p {
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 18px;
-  }
+.section1__pic {
+  margin: 11px 0 3px 0;
+  width: 400px;
+
+}
+
+.section__p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
 
 section p {
       width: 100vw;
       margin: 15px 0 15px 0;
   }
 
-  footer {
-      height: 21px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 13px 0 8px 0
-  }
+footer {
+  height: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.footer__p {
+    margin: 22px 0 22px 0;
+}
 
