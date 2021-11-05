@@ -99,8 +99,6 @@ div ul .personaldata__bold {
     padding-left: 10px;
 }
 
-
-
 footer {
     background-color: var(--dark-blue);
     min-height: 37px;
@@ -123,4 +121,9 @@ footer {
     width: 20px;
     height: 20px;
     margin-left: 26px;
+}
+
+.fa-user {
+    color: var(--white);
+    font-size: 20px;
 }
