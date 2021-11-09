@@ -29,6 +29,14 @@ DESAFIO:
 
 - [ Figma Design ](https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1)
 
+### Fri 5 Nov
+
+DESAFIO:
+
+- Hasta el momento, tenemos maquetado con HTML nuestro proyecto de Petshop. En este desafío, incorporaremos nuevas etiquetas y estilos CSS.
+
+- [ Figma Design ](https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1)
+
 
 ### CONTACT
 

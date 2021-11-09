@@ -1,24 +1,50 @@
-/** {*/
-/*    box-sizing: border-box;*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --black: #222222;
+    --white: #ffff;
+    --yellow: #F0A83E;
+}
 
-/*body, html {*/
-/*    height: 100vh;*/
-/*    width: 100vw;*/
-/*}*/
+body, html {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
 
-/*.header__section {*/
-/*    background-color: black;*/
-/*    height: 20px;*/
-/*}*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    background: var(--black);
+    color: var(--white);
+    font-size: 12px;
+    padding: 4px 90px;
+}
 
-/*.header__navBar {*/
-/*    height: 62px;*/
-/*    background-color: #F0A83E;*/
-/*}*/
+.header__cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-/*.header__section-p {*/
-/*    color: white;*/
-/*}*/
+.header__navBar {
+    background: var(--yellow);
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 40px;
+}
+
+.header__navBar--cont {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider {
+    height: 409px;
+    background-image: url("./assets/bowl-and-pet-daities-on-green-background 1.png");
+}
