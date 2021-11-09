@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+
+    --orange: #D0532C;
+    --dark-blue: #005677;
+    --gray: #E6E6E6;
+    --white: #ffffff;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    width: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--gray);
+    border-radius: 20px;
+}
+
+.header {
+    position: relative;
+}
+
+.header__background {
+    background-image: url("./assets/background.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 20px 20px;
+    min-height: 252px;
+    position: relative;
+    margin: auto;
+    width: 90%;
+    max-width: 1152px;
+}
+
+.header__profile {
+    height: 168px;
+    position: absolute;
+    bottom: -25%;
+}
+
+.personalData,
+.education {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    max-width: 1152px;
+}
+
+.personalData__card {
+    align-self: flex-start;
+    height: 369px;
+    width: 60%;
+    min-width: 338px;
+    max-width: 545px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.card__p {
+    margin: 8px 0 8px 0;
+}
+
+.card__title {
+    color: var(--orange);
+    align-self: center;
+}
+
+.card__subtitle {
+    font-weight: bold;
+}
+
+.personalData__button {
+    position: relative;
+    border: solid 2px var(--orange);
+    border-radius: 15px;
+    height: 54px;
+    min-width: 170px;
+    color: var(--orange);
+    font-size: 18px;
+    padding: 8px;
+    background-color: var(--white);
+    cursor: pointer;
+    align-self: center;
+    margin: 20px;
+}
+
+.personalData__button:hover {
+    background-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.education__card {
+    height: 369px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px;
+    padding: 50px;
+}
+
+.education__card--title {
+    color: var(--orange);
+    display: inline-block;
+}
+
+.education__content--container {
+    display: flex;
+    flex-direction: row;
+}
+
+.education__card--subtitle {
+    font-weight: bold;
+    width: 100px;
+}
+
+.education__card--school {
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.aboutMe {
+    position: relative;
+    margin: 20px 0;
+}
+
+.aboutMe__inner {
+    position: absolute;
+    height: 300px;
+    width: 350px;
+    top: 170px;
+    left: 40%;
+    background: var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.aboutMe__back {
+    position: absolute;
+    height: 450px;
+    width: 350px;
+    top: 100px;
+    left: 35%;
+    background: #D0532C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.aboutMe__text {
+    padding: 30px;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    max-width: 1152px;
+    top: 900px;
+    bottom: 0;
+}
+
+.footer__container {
+    height: 50px;
+    background-color: var(--orange);
+    border-radius: 20px 20px 0 0;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__style {
+    color: white;
+    font-size: 20px;
+    margin: 6px 10px 6px 10px;
+}
+
+.icon__style:hover {
+    font-size: 30px;
+    cursor: pointer;
+}
