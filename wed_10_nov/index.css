@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --white: #fff;
+    --black: #000;
+    --red: #FC200C;
+}
+
+body, html {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: var(--black);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header__logo {
+    height: 80px;
+}
+
+
+.header__menu-items {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    list-style: none;
+    font-size: 16px;
+    color: var(--white);
+}
+
+.main {
+    margin: 35px 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.main__promo-1 {
+    width: 490px;
+    height: 350px;
+    background-image: url(./assets/delivery.png);
+    border-radius: 5px;
+}
+
+.promo-1__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 20px 0 0 20px;
+}
+
+.promo-1__title--white {
+    color: var(--white);
+}
+
+.promo-1__title--red {
+    color: var(--red);
+}
+
+.main__promo-2 {
+    width: 490px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promo-2__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 20px 0 58px 0;
+    color: var(--red);
+}
+
+.topPizza__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.topPizza__info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 101px;
+}
+
+.topPizza__title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+}
+
+.topPizza__list {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.footer {
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    width: 100%;
+    display: flex;
+    height: 150px;
+    background-color: var(--black);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    list-style: none;
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 400;
+}
