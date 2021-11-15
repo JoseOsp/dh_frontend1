@@ -37,6 +37,20 @@ DESAFIO:
 
 - [ Figma Design ](https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1)
 
+### Fri 12 Nov
+
+DESAFIO:
+
+Hasta el momento, tenemos maquetado con HTML nuestro proyecto de Petshop. En  este desafío, incorporaremos nuevas etiquetas y estilos CSS. 
+
+Te dejamos unos items para que puedas guiarte:
+- Añadí propiedades de caja a los elementos que correspondan.
+- Convertí en contenedores flexibles los elementos que creas convenientes y
+asignales valores específicos a los hijos cuando lo creas necesario.
+- Podés utilizar el selector universal para modificar el comportamiento de las
+cajas y resetear los márgenes y espaciados que trae por defecto el navegador.
+
+- [ Figma Design ](https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1)
 
 ### CONTACT
 

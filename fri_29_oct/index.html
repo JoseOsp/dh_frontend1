@@ -16,36 +16,40 @@
             rel="stylesheet"
     >
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>Pet Shop</title>
 </head>
 <body>
     <header>
-        <section class="header">
+        <section class="header__section1">
             <p class="header__text">Grandes ofertas en comederos</p>
             <div class="header__cont">
-                <p class="header__language">Español </p>
-                <i></i>
-                <p>ARG$</p>
-                <i></i>
+                <button class="header__button">
+                    Español
+                    <embed src="./assets/arrow_icon.svg" class="header__flag" type="image/svg+xml" />
+                </button>
+                <button class="header__button">
+                    ARG$
+                    <embed src="./assets/arrow_icon.svg" class="header__buttom-icon" type="image/svg+xml" />
+                </button>
             </div>
         </section>
         <nav class="header__navBar">
-            <embed src="./assets/logo_svg.svg" type="image/svg+xml">
-            <ul class="header__navBar--cont">
+            <embed class="header__navBar-logo" src="./assets/logo_svg.svg" type="image/svg+xml">
+            <ul class="header__navBar-cont">
                 <li>
-                    <embed src="./assets/pawprint__white.svg" type="image/svg+xml">
+                    <embed class="header__navBar-icon" src="./assets/pawprint__white.svg" type="image/svg+xml">
                     Categorías
                 </li>
                 <li>
-                    <embed src="./assets/pawprint__white.svg" type="image/svg+xml">
+                    <embed class="header__navBar-icon" src="./assets/pawprint__white.svg" type="image/svg+xml">
                     Pets
                 </li>
                 <li>
-                    <embed src="./assets/pawprint__white.svg" type="image/svg+xml">
+                    <embed class="header__navBar-icon" src="./assets/pawprint__white.svg" type="image/svg+xml">
                     Nosotros
                 </li>
                 <li>
-                    <embed src="./assets/pawprint__white.svg" type="image/svg+xml">
+                    <embed class="header__navBar-icon" src="./assets/pawprint__white.svg" type="image/svg+xml">
                     Contactanos
                 </li>
             </ul>
@@ -53,85 +57,138 @@
     </header>
     <main>
         <section class="slider">
-            <h2>¡Es un placer tenerte aquí!</h2>
-            <p>¡Comederos en descuento!</p>
-            <buttom>COMEDEROS</buttom>
+            <div class="slider__container">
+                <h2 class="slider__title">¡Es un placer tenerte aquí!</h2>
+                <p class="slider__text">¡Comederos en descuento!</p>
+                <button class="slider__button">COMEDEROS</button>
+            </div>
         </section>
         <section class="destacados">
-            <embed src="./assets/pawprint.svg" type="image/svg+xml">
-            <h2>Productos Destacados</h2>
-            <p>Comederos</p>
-            <p>Accesorios</p>
-            <p>Comida</p>
+            <embed class="destacados__icon" src="./assets/pawprint.svg" type="image/svg+xml">
+            <h2 class="destacados__title">Productos Destacados</h2>
+            <div class="destacados__type">
+                <p>Comederos</p>
+                <p>-</p>
+                <p>Accesorios</p>
+                <p>-</p>
+                <p>Comida</p>
+            </div>
             <div class="destacados__cards-container">
                 <div class="destacados__card">
                     <embed src="./assets/churrasquito.svg" type="image/svg+xml">
-                    <p>Juguete Churrasquito</p>
-                    <p>$150</p>
+                    <p class="product__title">Juguete Churrasquito</p>
+                    <p class="product__price">$150</p>
                 </div>
                 <div class="destacados__card">
                     <embed src="./assets/comedero.svg" type="image/svg+xml">
-                    <p>Comedero para perro</p>
-                    <p>$250</p>
+                    <p class="product__title">Comedero para perro</p>
+                    <p class="product__price">$250</p>
                 </div>
                 <div class="destacados__card">
                     <embed src="./assets/Huesito.svg" type="image/svg+xml">
-                    <p>Juguete Huesito</p>
-                    <p>$650</p>
+                    <p class="product__title">Juguete Huesito</p>
+                    <p class="product__price">$650</p>
                 </div>
             </div>
         </section>
-        <section class="contactenos">
-            <h2>Contáctanos</h2>
-            <form>
-                <label for="name">
-                    Nombre y apellido
-                    <input type="text" id="name">
+        <section class="contactenos__container">
+            <h2 class="contactenos__title">Contáctanos</h2>
+            <form class="contactenos__form">
+                <label class="form__label" for="fullName">
+                    <input class="form__input"
+                           type="text"
+                           id="fullName"
+                           name="nameLastname"
+                           placeholder="Nombre y Apellido"
+                    >
                 </label>
                 <label for="email">
-                    Ingresá tu correo electrónico
-                    <input type="text" id="email">
+                    <input
+                            class="form__input"
+                            type="text"
+                            id="email"
+                            name="email"
+                            placeholder="Ingresá tu correo electrónico"
+                    >
                 </label>
                 <label for="phone">
-                    Teléfono
-                    <input type="number" id="phone">
+                    <input
+                            class="form__input"
+                            type="number"
+                            id="phone"
+                            name="phone"
+                            placeholder="Teléfono"
+                    >
                 </label>
-                <button>Resetear</button>
-                <button>Enviar</button>
+                <div class="form__send">
+                    <button
+                            class="form__button-reset"
+                    >
+                        Resetear
+                    </button>
+                    <button
+                            class="form__button-send"
+                    >
+                        Enviar
+                    </button>
+                </div>
             </form>
         </section>
         <section class="subscribe">
-            <embed src="./assets/enviar-correo.svg" type="image/svg+xml">
-            <h2>Suscríbete para más novedades</h2>
+            <h2 class="subscribe__title">
+                <embed class="subscribe__send-icon" src="./assets/enviar-correo.svg" type="image/svg+xml">
+                Suscríbete para más novedades
+            </h2>
             <form>
                 <label for="email_subscribe">
-                    Ingresá tu correo electronico
-                    <input type="text" id="email_subscribe">
+                    <input
+                            class="subscribe__form-input"
+                            type="text"
+                            id="email_subscribe"
+                            name="email_subscribe"
+                            placeholder="Ingresá tu correo electronico"
+                    >
                 </label>
-                <button>Suscribirme</button>
+                <button
+                        class="subscribe__form-button""
+                >
+                    Suscribirme
+                </button>
             </form>
         </section>
     </main>
-    <footer>
-        <section>
+    <footer class="footer__container">
+        <section class="footer__section-contact">
             <div class="footer__contact">
-                <div>
-                    <embed src="./assets/location.svg" type="image/svg+xml">
-                    <h2>Localidad</h2>
-                    <p>Calle - provincia</p>
+                <div class="contact__container">
+                    <div class="contact__icon--container">
+                        <embed class="contact__icon" src="./assets/location.svg" type="image/svg+xml" width="45" height="45">
+                    </div>
+                    <div>
+                        <h2 class="contact__info-title">Localidad</h2>
+                        <p class="contact__info-subtitle">Calle - provincia</p>
+                    </div>
                 </div>
-                <div>
-                    <embed src="./assets/Phone.svg" type="image/svg+xml">
-                    <h2>Teléfono</h2>
-                    <p>Número de teléfono</p>
+                <div class="contact__container">
+                    <div class="contact__icon--container">
+                        <embed class="contact__icon" src="./assets/Phone.svg" type="image/svg+xml" width="45" height="45">
+                    </div>
+                    <div>
+                        <h2 class="contact__info-title">Teléfono</h2>
+                        <p class="contact__info-subtitle">Número de teléfono</p>
+                    </div>
                 </div>
-                <div>
-                    <embed src="./assets/correo-electronico.svg" type="image/svg+xml">
-                    <h2>Correo Electrónico</h2>
-                    <p>Dirección de correo</p>
+                <div class="contact__container">
+                    <div class="contact__icon--container">
+                        <embed class="contact__icon" src="./assets/correo-electronico.svg" type="image/svg+xml" width="45" height="45">
+                    </div>
+                    <div>
+                        <h2 class="contact__info-title">Correo Electrónico</h2>
+                        <p class="contact__info-subtitle">Dirección de correo</p>
+                    </div>
                 </div>
             </div>
-            <embed src="./assets/logo_svg.svg" type="image/svg+xml">
+            <embed class="footer__logo" src="./assets/logo__footer.svg" type="image/svg+xml" width="166" height="23">
         </section>
         <section class="footer__derechos">
             <p>Todos los derechos reservados Front End</p>
