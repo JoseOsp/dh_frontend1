@@ -14,25 +14,26 @@ body, html {
     height: 100vh;
     width: 100vw;
     font-family: 'Roboto', sans-serif;
-    font-size: 62.5%;
+    /*font-size: 62.5%;*/
+    font-size: 10px;
+    font-weight: 400;
 }
 
 .header {
-    height: 38px;
+    height: 3.8rem;
     background-color: var(--yellow);
-    padding: 10px;
+    padding: 1rem;
 }
 
 .header__discount {
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 1.5rem;
 }
 
 .main {
     width: 100vw;
-    height: 101px;
+    height: 10.1rem;
     background-color: var(--blue);
-    padding: 28px;
+    padding: 2.8rem;
     z-index: 10;
 
     position: sticky;
@@ -51,40 +52,40 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 134px 12px;
+    margin: 13.4rem 1.2rem;
 }
 
 .cards__hero {
-    margin: 20px;
+    margin: 2rem;
 }
 
 .cards__background {
-    height: 193px;
+    height: 19.3rem;
     position: relative;
-    width: 300px;
+    width: 30rem;
     /*background-image: url("./assets/background_01-.png");*/
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 1.6rem 1.6rem 0 0;
     background-size: cover;
 }
 
 .cards__like {
     position: absolute;
-    top: 15.88px;
-    left: 21px;
+    top: 1.588rem;
+    left: 2.1rem;
 }
 
 .cards__like {
     color: var(--red);
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .cards__profile {
     border-radius: 50%;
-    height: 118px;
-    left: 90px;
+    height: 11.8rem;
+    left: 9rem;
     position: absolute;
-    top: 126px;
-    width: 120px
+    top: 12.6rem;
+    width: 12rem;
 }
 
 .cards__info {
@@ -92,45 +93,45 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 300px;
-    height: 336px;
+    width: 30rem;
+    height: 33.6rem;
     background-color: var(--gray);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
 }
 
 .cards__info--title {
-    margin: 74px 0 10px 0;
-    font-size: 25px;
+    margin: 7.4rem 0 1rem 0;
+    font-size: 2.5rem;
 }
 
 .cards__info--text {
-    margin: 0 16px 0 16px;
+    margin: 0 1.6rem 0 1.6rem;
     font-style: normal;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .cards__info--button {
     background-color: var(--blue);
-    height: 48.52px;
-    width: 128.78px;
-    margin: 37px 0 18px 0;
+    height: 4.852rem;
+    width: 12.878rem;
+    margin: 3.7rem 0 1.8rem 0;
     border: none;
-    padding: 15px 0;
-    font-size: 15px;
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--white);
 }
 
 .footer {
-    height: 51px;
+    height: 5.1rem;
     background-color: var(--blue);
-    padding: 16px 0 16px 16px;
+    padding: 1.6rem 0 1.6rem 1.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
 
     position: sticky;
-    top: 100vh;
+    top: calc( 100vh - 5.1rem );
 }
 
 .footer__copyright {
@@ -142,7 +143,7 @@ body, html {
 .footer__logo {
     position: absolute;
     right: 5%;
-    height: 25px
+    height: 2.5rem
 }
 
 @media (max-width: 650px) {
@@ -154,6 +155,7 @@ body, html {
     .footer {
         flex-direction: column;
         height: 8rem;
+        top: calc( 100vh - 8rem );
     }
 
     .footer__logo {
