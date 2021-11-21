@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <section class="header__section1">
+        <section class="header__section">
             <p class="header__text">Grandes ofertas en comederos</p>
             <div class="header__cont">
                 <button class="header__button">
@@ -33,27 +33,43 @@
                 </button>
             </div>
         </section>
-        <nav class="header__navBar">
-            <embed class="header__navBar-logo" src="./assets/logo_svg.svg" type="image/svg+xml">
-            <ul class="header__navBar-cont">
-                <li>
-                    <embed class="header__navBar-icon" src="./assets/pawprint__white.svg" type="image/svg+xml">
-                    Categorías
-                </li>
-                <li>
-                    <embed class="header__navBar-icon" src="./assets/pawprint__white.svg" type="image/svg+xml">
-                    Pets
-                </li>
-                <li>
-                    <embed class="header__navBar-icon" src="./assets/pawprint__white.svg" type="image/svg+xml">
-                    Nosotros
-                </li>
-                <li>
-                    <embed class="header__navBar-icon" src="./assets/pawprint__white.svg" type="image/svg+xml">
-                    Contactanos
-                </li>
-            </ul>
-        </nav>
+        <section class="header__navBar">
+            <a href="#">
+                <embed class="header__navBar-logo" src="./assets/logo_svg.svg" type="image/svg+xml">
+            </a>
+            <input type="checkbox" id="check">
+            <label for="check" class="check__btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <nav class="header__navBar--web">
+                <ul class="header__navBar-cont">
+                    <li>
+                        <a href="#">
+                            <embed class="header__navBar-icon" src="./assets/pawprint__white.svg" type="image/svg+xml">
+                            Categorías
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <embed class="header__navBar-icon" src="./assets/pawprint__white.svg" type="image/svg+xml">
+                            Pets
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <embed class="header__navBar-icon" src="./assets/pawprint__white.svg" type="image/svg+xml">
+                            Nosotros
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <embed class="header__navBar-icon" src="./assets/pawprint__white.svg" type="image/svg+xml">
+                            Contactanos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
     </header>
     <main>
         <section class="slider">
@@ -159,6 +175,7 @@
     </main>
     <footer class="footer__container">
         <section class="footer__section-contact">
+            <embed class="footer__logo" src="./assets/logo__footer.svg" type="image/svg+xml" width="166" height="23">
             <div class="footer__contact">
                 <div class="contact__container">
                     <div class="contact__icon--container">
@@ -188,7 +205,6 @@
                     </div>
                 </div>
             </div>
-            <embed class="footer__logo" src="./assets/logo__footer.svg" type="image/svg+xml" width="166" height="23">
         </section>
         <section class="footer__derechos">
             <p>Todos los derechos reservados Front End</p>
