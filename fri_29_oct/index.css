@@ -21,11 +21,6 @@ a:-webkit-any-link {
     cursor: pointer;
 }
 
-ol,
-ul {
-    list-style:none;
-}
-
 html {
     font-size: 62.5%;
 }
@@ -42,8 +37,6 @@ body {
 /* Variables */
 
 :root {
-    margin: 0;
-    padding: 0;
     --black: #000;
     --white: #ffff;
     --yellow: #F0A83E;
