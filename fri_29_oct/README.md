@@ -52,6 +52,20 @@ cajas y resetear los márgenes y espaciados que trae por defecto el navegador.
 
 - [ Figma Design ](https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1)
 
+### Fri 19 Nov
+
+DESAFIO:
+
+Hasta el momento, tenemos maquetado con HTML nuestro proyecto de Petshop. 
+En este desafío, incorporaremos nuevas etiquetas y estilos CSS. 
+En esta oportunidad haremos que nuestra tienda sea responsive añadiendo la
+media query correspondiente a mobile. Como en las anteriores oportunidades, los
+datos necesarios están disponibles en Figma.
+Recordá que en las reglas @media solo reescribimos lo que necesariamente deba
+ser modificado.
+
+- [ Figma Design ](https://www.figma.com/file/31NtnGFVE8XyUbfA8Esktw/Petshop?node-id=0%3A1)
+
 ### CONTACT
 
 JoseErneyOsp@gmail.com
