@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+            integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+    >
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>Heroes Shop</title>
+</head>
+<body>
+    <header class="header">
+        <p class="header__discount">20% de descuento en todos los productos!</p>
+    </header>
+    <main class="main">
+        <embed class="main__logo"
+               src="../assets/main__logo.svg"
+               type="image/svg+xml"
+        >
+        <h1 class="main__title">Nombre Tienda</h1>
+    </main>
+    <nav class="nav">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="./contact.html">Contacto</a></li>
+            <li><a href="./signUp.html">Registrarme</a></li>
+            <li><a href="./logIn.html">Ingresar</a></li>
+        </ul>
+    </nav>
+    <section class="addHero">
+        <div class="addHero__container">
+            <div class="addHero__header">
+                <h2 class="addHero__title">Añadí tu super!</h2>
+                <p class="addHero__subtitle">Agregá tu personaje favorito completando las opciones.</p>
+            </div>
+            <form class="addHero__form" action="" method="post">
+                <p class="f-co">
+                    <label class="form__label" for="name">*Nombre:</label>
+                    <input
+                            class="addHero-form__input"
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder=""
+                    >
+                </p>
+                <p class="f-co">
+                    <label class="form__label" for="specie">Especie</label>
+                    <select class="addHero-form__input addHero-form__select" id="specie" name="country">
+                        <optgroup label="Especies" >
+                            <option selected hidden>Especies</option>
+                            <option value="Argentina">Unknown</option>
+                            <option value="Colombia">Terrano</option>
+                            <option value="Brasil">Valkirio</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p class="f-co">
+                    <label class="form__label" for="date">Fecha</label>
+                    <input
+                            class="addHero-form__input"
+                            type="date"
+                            id="date"
+                            name="date"
+                    >
+                </p>
+                <p class="f-co">
+                    <label class="form__label" for="picture">Agregar foto</label>
+                    <input
+                            class="addHero-form__file"
+                            type="file"
+                            id="picture"
+                            name="picture"
+                            accept=".jpg"
+                            multiple
+                    >
+                </p>
+                <label for="textArea">
+                    <textarea class="addHero-form__textarea" name="textarea" id="textArea" rows="14" cols="50" placeholder="Descripción"></textarea>
+                </label>
+                <div class="f-co f-w">
+                    <p class="f-co">
+                    <label class="form__label">Poderes</label>
+                    <label for="fly">
+                        <input
+                                type="checkbox"
+                                id="fly"
+                                name="fly"
+                        >
+                        Volar
+                    </label>
+                    <label for="intelligent">
+                        <input
+                                type="checkbox"
+                                id="intelligent"
+                                name="intelligent"
+                        >
+                        Superinteligencia
+                    </label>
+                    <label for="laser">
+                        <input
+                                type="checkbox"
+                                id="laser"
+                                name="laser"
+                        >
+                        Vista de rayo láser
+                    </label>
+                    <label for="rich">
+                        <input
+                                type="checkbox"
+                                id="rich"
+                                name="rich"
+                        >
+                        Billetera gorda
+                    </label>
+                    </p>
+                    <hr>
+                    <p class="f-co">
+                        <label class="form__label" >Tipo de personaje</label>
+                        <label for="heroe">
+                            <input
+                                    type="radio"
+                                    id="heroe"
+                                    name="heroe"
+                            >
+                            Héroe / Heroina
+                        </label>
+                        <label for="villain">
+                            <input
+                                    type="radio"
+                                    id="villain"
+                                    name="villain"
+                            >
+                            Villano / Villana
+                        </label>
+                    </p>
+                </div>
+                <input class="addHero-form__submit" type="submit" value="Añadir">
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__copyright">
+            Todos los derechos reservados a FRONT END 1
+        </p>
+    </footer>
+</body>
+</html>

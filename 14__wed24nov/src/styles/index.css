@@ -401,6 +401,90 @@ a:active {
     background-color: var(--blue);
 }
 
+/* Add Hero */
+
+.addHero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addHero__container {
+    background-color: var(--blue);
+    border-radius: 4.5rem;
+    padding: 2rem 0;
+    margin: 4rem 0;
+    width: 70rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white);
+}
+
+.addHero__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addHero__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.f-co {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.f-w {
+    width: 30rem;
+}
+
+.addHero-form__input {
+    font-size: 1.6rem;
+    width: 30rem;
+    height: 6rem;
+    border-radius: 1.5rem;
+    padding: 1.5rem 1.4rem;
+    border: 0.1rem solid var(--blue);
+    color: var(--blue);
+}
+
+.addHero-form__textarea {
+    border-radius: 1.5rem;
+    width: 30rem;
+    padding: 1.5rem 1.4rem;
+    border: 0.1rem solid var(--blue);
+    color: var(--blue);
+    font-size: 1.6rem;
+}
+
+.addHero-form__file {
+    width: 30rem;
+}
+
+.addHero-form__submit  {
+    width: 62rem;
+    height: 5.379rem;
+    background-color: var(--green);
+    border-radius: 2.3011rem;
+    border: none;
+    cursor: pointer;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.addHero-form__submit:hover {
+    background-color: var(--white);
+    color: var(--darkBlue);
+}
+
 /* Footer */
 
 .footer {

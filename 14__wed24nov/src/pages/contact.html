@@ -34,14 +34,14 @@
 <nav class="nav">
     <ul>
         <li><a href="../../index.html">Home</a></li>
-        <li><a href="./contact.html">Contacto</a></li>
-        <li><a href="#">Registrarme</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="./signUp.html">Registrarme</a></li>
         <li><a href="./logIn.html">Ingresar</a></li>
     </ul>
 </nav>
 <section class="contact__container">
     <div class="contact__subContainer">
-        <h2 class="contact__title">Registro</h2>
+        <h2 class="contact__title">Contacto</h2>
         <form class="form__container" action="" method="post">
             <label class="form__label" for="fullName">
                 <input class="form__input"
@@ -60,34 +60,23 @@
                         placeholder="Correo electrónico"
                 >
             </label>
-            <label class="form__label" for="password">
+            <label for="phone">
                 <input
                         class="form__input"
-                        type="password"
-                        id="password"
-                        name="password"
-                        placeholder="Contraseña"
+                        type="number"
+                        id="phone"
+                        name="phone"
+                        placeholder="Teléfono"
                 >
             </label>
-            <label>
-                <select class="form__select" id="country" name="country">
-                    <optgroup label="country" >
-                        <option selected hidden>Pais</option>
-                        <option value="Argentina">Argentina</option>
-                        <option value="Colombia">Colombia</option>
-                        <option value="Brasil">Brasil</option>
-                    </optgroup>
-                </select>
+            <label for="textArea">
+                <textarea class="form__comment" name="textarea" id="textArea" rows="10" cols="50" placeholder="Comentarios"></textarea>
             </label>
             <div class="form__send">
                 <input class="form__reset" type="reset" value="Resetear">
-                <input class="form__submit" type="submit" value="Registrar">
+                <input class="form__submit" type="submit" value="Entrar">
             </div>
         </form>
-        <p>
-            <span>¿Ya tenés una cuenta? </span>
-            <a href="./logIn.html">Ingresár</a>
-        </p>
     </div>
 </section>
 <footer class="footer">
