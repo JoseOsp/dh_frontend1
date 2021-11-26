@@ -19,24 +19,23 @@ Web UI Developer at [ Globant ](https://www.linkedin.com/company/globant/mycompa
 
 ## ACTIVITY
 
-### Mon 22 Nov
+### Wed 24 Nov
 
 DESAFIO:
 
-Utilizando el diseño desarrollado en Figma —disponible en el siguiente enlace—,
-la idea será revisar los diferentes elementos y estilos que corresponden a ese
-resultado visual y maquetarlo.
+Utilizando este diseño de Figma como fuente de datos, la idea será revisar los diferentes
+elementos y estilos que corresponden a ese resultado visual y maquetarlo.
+
 Tengamos en cuenta que las distintas secciones comparten estilos comunes que
-podremos incluir en el CSS y que, además, podemos exportar las imágenes
-incluidas en el Figma para utilizarlas en nuestro maquetado.
-La tarea obligatoria para esta clase es maquetar los formularios de Login y
-Registro.
+podremos incluir en el CSS y que, además, podemos exportar las imágenes incluidas en el
+Figma para utilizarlas en nuestro maquetado.
 
-El formulario de Contacto, las secciones Home y Detail son opcionales para que
-quede un diseño más completo y por si queremos seguir practicando.
+La tarea para esta clase es dar interactividad con CSS utilizando los conceptos vistos en la
+clase asincrónica. El objetivo principal es utilizar los pseudoselectores y pseudoelementos
+que permitan lograr la interactividad que presenta el boceto.
 
 
-- [ Figma Design ](https://www.figma.com/file/7qh4iPVe98d7DfchQbu5PF/Ecommerce?node-id=1%3A2)
+- [ Figma Design ](https://www.figma.com/file/9XZ12ORXQuvMNg3ydKQtFo/Formulario-ll?node-id=0%3A1)
 
 
 ### CONTACT
