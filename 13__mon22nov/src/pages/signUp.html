@@ -17,7 +17,7 @@
             href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
             rel="stylesheet"
     >
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../styles/index.css">
     <title>Heroes Shop</title>
 </head>
 <body>
@@ -26,22 +26,22 @@
 </header>
 <main class="main">
     <embed class="main__logo"
-           src="./assets/main__logo.svg"
+           src="../assets/main__logo.svg"
            type="image/svg+xml"
     >
     <h1 class="main__title">Nombre Tienda</h1>
 </main>
 <nav class="nav">
     <ul>
-        <li><a href="./index.html">Home</a></li>
+        <li><a href="../../public/index.html">Home</a></li>
         <li><a href="./contact.html">Contacto</a></li>
-        <li><a href="./signUp.html">Registrarme</a></li>
-        <li><a href="#">Ingresar</a></li>
+        <li><a href="#">Registrarme</a></li>
+        <li><a href="./logIn.html">Ingresar</a></li>
     </ul>
 </nav>
 <section class="contact__container">
     <div class="contact__subContainer">
-        <h2 class="contact__title">Login</h2>
+        <h2 class="contact__title">Registro</h2>
         <form class="form__container" action="" method="post">
             <label class="form__label" for="fullName">
                 <input class="form__input"
@@ -49,6 +49,15 @@
                        id="fullName"
                        name="nameLastname"
                        placeholder="Nombre y Apellido"
+                >
+            </label>
+            <label class="form__label" for="email">
+                <input
+                        class="form__input"
+                        type="text"
+                        id="email"
+                        name="email"
+                        placeholder="Correo electrónico"
                 >
             </label>
             <label class="form__label" for="password">
@@ -60,13 +69,27 @@
                         placeholder="Contraseña"
                 >
             </label>
+            <label>
+                <select class="form__select" id="country" name="country">
+                    <optgroup label="country" >
+                        <option selected hidden>Pais</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Brasil">Brasil</option>
+                    </optgroup>
+                </select>
+            </label>
+            <label for="textArea">
+                <textarea class="form__comment" name="textarea" id="textArea" rows="10" cols="50" placeholder="Write something here"></textarea>
+            </label>
             <div class="form__send">
-                <input class="form__submit-login" type="submit" value="Entrar">
+                <input class="form__reset" type="reset" value="Resetear">
+                <input class="form__submit" type="submit" value="Registrar">
             </div>
         </form>
         <p>
-            <span>¿No tenés una cuenta? </span>
-            <a href="./signUp.html">Registrarme</a>
+            <span>¿Ya tenés una cuenta? </span>
+            <a href="./logIn.html">Ingresár</a>
         </p>
     </div>
 </section>
@@ -75,8 +98,5 @@
         Todos los derechos reservados a FRONT END 1
     </p>
 </footer>
-<div class="fixed__plus">
-    <i class="fas fa-plus fixed__plus-icon"></i>
-</div>
 </body>
 </html>
