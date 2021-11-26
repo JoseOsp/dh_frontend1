@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+            integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+    >
+    <link rel="stylesheet" href="index.css">
+    <title>Heroes Shop</title>
+</head>
+<body>
+<header class="header">
+    <p class="header__discount">20% de descuento en todos los productos!</p>
+</header>
+<main class="main">
+    <embed class="main__logo"
+           src="./assets/main__logo.svg"
+           type="image/svg+xml"
+    >
+    <h1 class="main__title">Nombre Tienda</h1>
+</main>
+<nav class="nav">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="./contact.html">Contacto</a></li>
+        <li><a href="./signUp.html">Registrarme</a></li>
+        <li><a href="./logIn.html">Ingresar</a></li>
+    </ul>
+</nav>
+<section class="cards__container">
+    <div class="cards__hero">
+        <div
+                class="cards__background"
+                style="background-image: url('./assets/background__01.png');"
+        >
+            <i class="fas fa-heart cards__like"></i>
+            <embed class="cards__profile"
+                   src="./assets/hero.svg"
+                   type="image/svg+xml"
+            >
+        </div>
+        <div class="cards__info">
+            <h2 class="cards__info--title">BATMAN</h2>
+            <p class="cards__info--text">
+                Bruce Wayne es el único personaje que se identifica como Batman y aparece en Batman, Detective Comics, Batman y Robin, y Batman: The Dark Knight. Dick Grayson vuelve al manto de Nightwing
+            </p>
+            <button
+                    class="cards__info--button"
+                    onclick="window.location.href='./detail.html'"
+            >Ver más</button>
+        </div>
+    </div>
+    <div class="cards__hero">
+        <div
+                class="cards__background"
+                style="background-image: url('./assets/background__02.png');"
+        >
+            <i class="fas fa-heart cards__like"></i>
+            <embed class="cards__profile"
+                   src="./assets/hero__02.svg"
+                   type="image/svg+xml"
+            >
+        </div>
+        <div class="cards__info">
+            <h2 class="cards__info--title">Harley Quinn</h2>
+            <p class="cards__info--text">
+                Harley Quinn es un personaje ficticio creado por los estadounidenses Paul Dini y Bruce Timm para la editorial DC Comics. Quinn hizo su debut en el vigésimo-segundo episodio de Batman: la serie animada, «El favor del Joker», en septiembre de 1992 y se convirtió en una villana recurrente en la serie
+            </p>
+            <button
+                    class="cards__info--button"
+                    onclick="window.location.href='./detail.html'"
+            >Ver más</button>
+        </div>
+    </div>
+    <div class="cards__hero">
+        <div
+                class="cards__background"
+                style="background-image: url('./assets/background__01.png');"
+        >
+            <i class="fas fa-heart cards__like"></i>
+            <embed class="cards__profile"
+                   src="./assets/hero.svg"
+                   type="image/svg+xml"
+            >
+        </div>
+        <div class="cards__info">
+            <h2 class="cards__info--title">BATMAN</h2>
+            <p class="cards__info--text">
+                Bruce Wayne es el único personaje que se identifica como Batman y aparece en Batman, Detective Comics, Batman y Robin, y Batman: The Dark Knight. Dick Grayson vuelve al manto de Nightwing
+            </p>
+            <button
+                    class="cards__info--button"
+                    onclick="window.location.href='./detail.html'"
+            >Ver más</button>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <p class="footer__copyright">
+        Todos los derechos reservados a FRONT END 1
+    </p>
+</footer>
+<div class="fixed__plus">
+    <i class="fas fa-plus fixed__plus-icon"></i>
+</div>
+</body>
+</html>
