@@ -236,7 +236,7 @@ section.referents > h2 {
     align-items: center;
     justify-content: center;
     padding: 7.5rem 0 4.5rem 0;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .card__container {
@@ -246,7 +246,7 @@ section.referents > h2 {
     align-items: center;
     justify-content: center;
     gap: 2.1rem;
-    width: 44.5rem;
+    width: 40rem;
     height: 21.9rem;
     background: var(--gray__trans);
     padding: 10.25rem 2.1rem 3.85rem 2.1rem;
@@ -543,7 +543,6 @@ footer {
         align-items: center;
         justify-content: center;
         padding: 7.5rem 0 4.5rem 0;
-        flex-wrap: wrap;
     }
 
     .cards__container div:nth-child(2n),
